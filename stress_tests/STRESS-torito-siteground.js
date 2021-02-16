@@ -10,7 +10,6 @@ export let options = {
 };
 export default function () {
 	let res = http.get('https://www.adnstreamconcerts.com/el-torito/');
-	//let res = http.get('https://dlu5srh3ctx6n.cloudfront.net/');
 
 	check(res, {
 		success: (r) => r.status == 200,

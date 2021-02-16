@@ -9,7 +9,7 @@ export let options = {
 	duration: '60s',
 };
 export default function () {
-	let res = http.get('https://p2.dftm.pro');
+	let res = http.get('https://cw1.dftm.pro/');
 
 	check(res, {
 		success: (r) => r.status == 200,
