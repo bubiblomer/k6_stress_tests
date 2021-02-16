@@ -5,7 +5,7 @@ import { Counter } from 'k6/metrics';
 let counterErrors = new Counter('Errors');
 
 export let options = {
-	vus: 50, //virtual users
+	vus: 100, //virtual users
 	duration: '60s',
 };
 export default function () {
