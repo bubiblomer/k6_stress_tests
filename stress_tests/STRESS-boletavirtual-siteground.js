@@ -13,7 +13,9 @@ export let options = {
 let myTrend = new Trend('status');
 
 export default function () {
-	let res = http.get('https://www.adnstreamconcerts.com/el-torito/');
+	let res = http.get(
+		'https://www.boletavirtual.com/tienda/product/mas-de-una-decada-de-orientacion-estudiante/'
+	);
 	myTrend.add(res.status);
 
 	check(res, {
