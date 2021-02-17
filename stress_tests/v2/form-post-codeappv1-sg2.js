@@ -3,7 +3,7 @@ import { check } from 'k6';
 
 export let options = {
 	vus: 200, //virtual users
-	duration: '20s',
+	duration: '60s',
 };
 
 export default function () {
