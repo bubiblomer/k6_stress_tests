@@ -8,7 +8,7 @@ export let options = {
 
 export default function () {
 
-	const url = 'https://ploi2.dftm.pro/codeappv1'; 
+	const url = 'https://cw2.dftm.pro/codeappv1'; 
 	
 	// Now, submit form setting/overriding some fields of the form
 	let payload = {
